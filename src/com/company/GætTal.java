@@ -7,8 +7,10 @@ public class GætTal {
     private int hemmeligtTal;
     private int max;
     private int antalGæt;
-    boolean gættetVarForHøjt;
-    boolean gættetRigtigt;
+
+
+    private boolean gættetVarForHøjt;
+    private boolean gættetRigtigt;
     private int senesteGæt;
     private int score;
 
@@ -65,6 +67,14 @@ public class GætTal {
 
     public int getAntalGæt(){
         return antalGæt;
+    }
+
+    public boolean gættetVarForHøjt() {
+        return gættetVarForHøjt;
+    }
+
+    public boolean gættetRigtigt() {
+        return gættetRigtigt;
     }
 
     public void logStatus (){
